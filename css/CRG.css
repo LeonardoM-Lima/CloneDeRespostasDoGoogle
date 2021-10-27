@@ -1,0 +1,289 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.searchbar {
+    width: 690px;
+    height: 43px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.searchbar:hover {
+    box-shadow: 0px 2px 8px #d1d1d1;
+}
+
+.searchtype input {
+    width: 515px;
+    height: 41px;
+    border:none;
+    outline: 0;
+    margin-right:15px;
+    margin-left:16px;
+}   
+
+.keyboard {
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.lupa {
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+.rightside {
+    display:flex;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+}
+
+.rightside img {
+    margin-right:15px;
+    cursor:pointer;
+}
+
+.userlink {
+    width:100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius:5px;
+    background-color:#4487fb;
+    margin-right: 15px;
+    color:#ffffff;
+    text-align:center;
+    align-items: center;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.border {
+    border-bottom: 1px solid #dfe1e5;
+    margin: 0;
+}
+
+.menu_options {
+    display: flex;
+    margin-left: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.menu_options a {
+    text-decoration: none;
+    color:#5f6368;
+}
+
+#blueabr {
+    border-bottom: 3px solid #4487fb;
+}
+
+.menu_options ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.menu_options li {
+    padding-right:10px;
+    padding-left:10px;
+    font-size:15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left:160px;
+}
+
+.results {
+    display: flex;
+    flex-direction:column;
+}
+
+.number_result {
+    height: 40px;
+    font-size: 15px;
+    color: #5f6368;
+    padding-top: 10px;
+}
+
+.resultwidget {
+    margin-bottom:20px;
+    width: 580px;
+}
+.site_name {
+    font-size:15px;
+    margin-bottom:5px;
+    font-weight: bolder;
+}
+
+grey {
+    color:#5f6368;
+    margin-right:8px;
+}
+
+.result_title {
+    color: #1a0dab;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.result_desc {
+    font-size: 15px;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
+
+.title_2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.related {
+    display: flex;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.related p {
+    color:#1a0dab;
+}
+
+.left {
+    padding-right:30px;
+}
+
+.result_logo {
+    display: flex;
+    justify-content: center;
+    width: 580px;
+    margin-bottom:20px;
+}
+
+.area_1 {
+    margin-right: 15px;
+}
+
+.numbers {
+    display:flex;
+    padding-left:44px;
+}
+
+.numbers n {
+    margin-right:15px;
+    font-size:15px;
+    color:#4285f4;
+}
+
+.numbers a {
+    text-decoration: none;
+}
+
+#black {
+    cursor: pointer;
+    color:#000000;
+}
+
+.area_2 {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    padding-top: 20px;
+}
+
+.more_text {
+    color:#4285f4;
+    font-size:15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.area1_footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    border-top: 1px solid #dfe1e5;
+}
+
+.language {
+    font-size: 15px;
+    color: #5f6368;
+}
+
+.area2_footer {
+    height: 45px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    margin-right:30px;
+    border-top: 1px solid #dfe1e5;
+}
+
+.leftsider ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 30px;
+    color:#5f6368;
+    font-size:15px;
+
+}
+
+.leftsider ul {
+    display: flex;
+}
+
+.leftsider {
+    display:flex;
+    align-items: center;
+    width: 50%;
+}
+
+.leftsider ul li:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+
+
+
